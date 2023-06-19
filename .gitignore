@@ -1,0 +1,6 @@
+/backend/data/refresh_token.json
+/backend/node_modules
+/backend/package-lock.json
+/frontend/generator/node_modules
+/frontend/generator/package-lock.json
+/frontend/generator/quiz.json

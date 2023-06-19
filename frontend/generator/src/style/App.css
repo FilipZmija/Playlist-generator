@@ -1,0 +1,113 @@
+body {
+	background-color: #121212; /*121212*/
+	font-family: Helvetica, sans-serif;
+	user-select: none;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.App {
+	height: 100%;
+	display: block;
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.spotify-logo {
+	width: 120px;
+}
+
+.appbar-login {
+	margin-left: auto;
+}
+.MuiAutocomplete-root {
+	margin: 0.4rem;
+}
+.MuiAutocomplete-inputRoot {
+	background-color: #2e2e2e;
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: #2e2e2e;
+}
+
+/* Buttons */
+
+.my-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	height: 3.15rem;
+	font-size: 1rem;
+	font-weight: 700;
+	border-radius: 500px;
+	border: 0px;
+	transition: transform 0.2s;
+	transition: background-color 0.1s;
+	margin: 0.5rem;
+}
+.my-button-disabled {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	height: 3.15rem;
+	font-size: 1rem;
+	font-weight: 700;
+	border-radius: 500px;
+	border: 0px;
+	transition: transform 0.2s;
+	transition: background-color 0.1s;
+	margin: 0.5rem;
+}
+.btn-text {
+	padding: 0.2rem 1rem 0 1rem;
+}
+.btn-icon {
+	padding: 0.2rem 1rem 0rem 1rem;
+}
+.my-button:hover {
+	transform: scale(1.05);
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.my-button:active {
+	transform: scale(1);
+}
+.btn-green {
+	background-color: #1ed760;
+}
+.btn-transparent {
+	background-color: #1ed760;
+}
+.btn-circular {
+	border-radius: 100px;
+	width: 3.15rem;
+}
+.btn-green:hover {
+	background-color: #1db954;
+}
+
+.login-btn:link {
+	text-decoration: none;
+}
+.link-btn:visited {
+	text-decoration: none;
+}
+.link-btn .link-btn:hover {
+	text-decoration: none;
+}
+.link-btn .link-btn:active {
+	text-decoration: none;
+}
+.center-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

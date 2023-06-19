@@ -1,0 +1,100 @@
+.MuiTextField-root {
+	cursor: text !important;
+}
+.track-form-box {
+	background-color: #2c2c2c;
+	color: #fff !important;
+	width: fit-content;
+	border-radius: 10px;
+	margin: 0.4rem;
+	margin-bottom: 1rem;
+	padding: 0rem 1rem 1rem 1rem;
+}
+label#standard-number-label {
+	color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	background-color: #fff;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+	color: #1db954 !important;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root:before {
+	border-bottom: 1px solid #fff !important;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root:after {
+	border-bottom: 2px solid #1db954 !important;
+}
+fieldset.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+}
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+	.MuiOutlinedInput-notchedOutline {
+	border-color: #1db954 !important;
+}
+input#standard-number {
+	text-align: center;
+	color: #fff;
+}
+
+.MuiToggleButton-root {
+	color: white !important;
+	height: 3.5rem;
+	background-color: #505050 !important;
+
+	border-bottom: 1px solid #fff !important;
+
+	border: 1px solid !important;
+}
+
+button.MuiButtonBase-root.MuiToggleButton-root.MuiToggleButton-sizeMedium.MuiToggleButton-primary.MuiToggleButtonGroup-grouped.MuiToggleButtonGroup-groupedHorizontal.css-d9c359-MuiButtonBase-root-MuiToggleButton-root:nth-child(1) {
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
+}
+button.MuiButtonBase-root.MuiToggleButton-root.MuiToggleButton-sizeMedium.MuiToggleButton-primary.MuiToggleButtonGroup-grouped.MuiToggleButtonGroup-groupedHorizontal.css-d9c359-MuiButtonBase-root-MuiToggleButton-root:nth-child(3) {
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+.MuiFormControl-root.MuiTextField-root.numeric-input.css-1iezzy6-MuiFormControl-root-MuiTextField-root {
+	background-color: #505050 !important;
+	margin-top: 1rem;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.MuiToggleButton-root.Mui-selected {
+	color: #1db954 !important;
+	background-color: rgba(29, 185, 84, 0.08) !important;
+	border-bottom: 2px solid #1db954 !important;
+}
+.MuiToggleButton-root.Mui-selected:hover {
+	color: #1db954 !important;
+	background-color: rgba(29, 185, 84, 0.12) !important;
+}
+.form-text {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.button-group-title {
+	font-size: 1rem;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	margin: 0.4rem 0rem;
+}
+
+.MuiToggleButton-root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.title {
+	font-size: 1.6rem;
+	font-weight: 600;
+}

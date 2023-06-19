@@ -1,0 +1,100 @@
+.Playlist-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.Track-btn {
+	display: flex;
+}
+.MuiSkeleton-root {
+	background-color: #3b3b3b !important;
+	border-radius: 12px;
+}
+.track-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 12vh;
+}
+.track-box {
+	height: fit-content;
+	width: fit-content;
+	padding: 2rem;
+	margin-top: 3vh;
+	border-radius: 20px;
+}
+
+.track-img {
+	width: 16rem;
+	height: 16rem;
+	object-fit: cover;
+	border-radius: 0.4rem;
+}
+.track-box {
+	margin: 0.7rem 0.7rem;
+	padding: 1rem;
+	min-height: 20rem;
+	height: fit-content;
+	border-radius: 0.4rem;
+	background-color: #1a1a1a;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	transition: transform 0.2s ease;
+}
+
+.correct-answer {
+	box-shadow: 0px 0px 10px 5px rgba(29, 185, 84, 1);
+	border-radius: 5px;
+}
+.incorrect-answer {
+	box-shadow: 0px 0px 10px 5px rgba(185, 29, 29, 1);
+	border-radius: 5px;
+}
+
+.track-containter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.track-display {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90vw;
+}
+.Track-note {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.song-title {
+	margin-top: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	max-width: 15rem;
+	text-overflow: ellipsis;
+	white-space: wrap;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.artist-name {
+	padding-top: 0.4rem;
+	padding-left: 0.4rem;
+	font-size: 1.2rem;
+	color: #6c6c6c;
+	line-height: 130%;
+	overflow: hidden;
+	max-width: 15rem;
+	margin-bottom: 0.5rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
